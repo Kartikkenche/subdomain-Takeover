@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subdomain Takeover Proof</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0f172a;
+            color: #e5e7eb;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #020617;
+            padding: 30px 40px;
+            border-radius: 10px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+        }
+        h1 {
+            color: #ef4444;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #38bdf8;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin: 8px 0;
+            color: #cbd5f5;
+        }
+        .badge {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 6px 14px;
+            background-color: #1e293b;
+            border-radius: 20px;
+            font-size: 13px;
+            color: #93c5fd;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+        code {
+            color: #22c55e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Subdomain Takeover</h1>
+        <h2>Proof of Concept</h2>
+
+        <p>
+            This subdomain is vulnerable to a <strong>Subdomain Takeover</strong>
+            due to a misconfigured DNS record pointing to an unclaimed service.
+        </p>
+
+        <p>
+            Control of this subdomain has been obtained for
+            <strong>security research purposes only</strong>.
+        </p>
+
+        <p>
+            <strong>Vulnerability:</strong> Dangling DNS / Unclaimed Resource  
+            <br>
+            <strong>Status:</strong> Confirmed
+        </p>
+
+        <div class="badge">
+            Responsible Disclosure
+        </div>
+
+        <footer>
+            Reported by: <code>Your Name / Handle</code><br>
+            Program: <code>Bugcrowd / HackerOne / Private</code><br>
+            Date: <code>YYYY-MM-DD</code>
+        </footer>
+    </div>
+</body>
+</html>
